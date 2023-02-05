@@ -26,14 +26,6 @@ p {
   color: #8f8f8f;
 }
 
-.center {
-  text-align: center;
-}
-
-.left {
-  text-align: left;
-}
-
 /* navigation bar */
 
 #mynav {
@@ -73,7 +65,7 @@ p {
 }
 
 #title button {
-  margin: auto 1%;
+  margin: auto 2%;
 }
 
 /* image title */
@@ -109,6 +101,7 @@ p {
   background-color: white;
   padding: 7% 15%;
   position: relative;
+  text-align: center;
 }
 
 /* Testimonials */
@@ -117,6 +110,7 @@ p {
   font-family: Montserrat-Bold;
   background-color: #a61f69;
   color: white;
+  text-align: center;
 }
 
 #testimonials h2 {
@@ -132,6 +126,7 @@ p {
 
 #press {
   background-color: #a61f69;
+  text-align: center;
 }
 
 .press-img {
@@ -157,6 +152,7 @@ p {
 
 #pricing {
   padding: 8rem;
+  text-align: center;
 }
 
 .pricing-col {
@@ -179,6 +175,7 @@ p {
 
 #cta {
   background-color: #a61f69;
+  text-align: center;
   padding: 10%;
   color: white;
 }
@@ -199,6 +196,7 @@ p {
 #footer {
   background-color: white;
   padding: 7% 15%;
+  text-align: center;
 }
 
 #footer i {
