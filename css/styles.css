@@ -69,7 +69,8 @@ p {
 }
 
 #title button {
-  margin: auto 2%;
+  margin-left: 0;
+  margin-right: 2%;
 }
 
 /* image title */
