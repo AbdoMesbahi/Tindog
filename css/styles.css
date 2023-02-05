@@ -156,24 +156,12 @@ p {
 }
 
 #pricing {
-  padding: 8rem;
+  padding: 5%;
   text-align: center;
 }
 
 .pricing-col {
   padding: 4% 3%;
-}
-
-@media (max-width: 1082px) {
-  .row {
-    text-align: center;
-  }
-
-  .img-title {
-    transform: rotate(0);
-    position: static;
-    margin-top: 10%;
-  }
 }
 
 /* cta section */
@@ -212,4 +200,59 @@ p {
 
 #footer i:hover {
   color: #a61f69;
+}
+
+/* Mobile Section */
+
+@media (max-width: 1082px) {
+  .row {
+    text-align: center;
+  }
+
+  #brand {
+    font-size: 1.5rem;
+  }
+
+  .img-title {
+    transform: rotate(0);
+    position: static;
+    margin-top: 25%;
+    margin-bottom: 6rem;
+  }
+
+  #features {
+    margin: 10%;
+  }
+
+  #cta h3 {
+    padding-bottom: 8%;
+  }
+
+  #footer {
+    margin-top: 9rem;
+  }
+
+  #footer p {
+    margin-top: 5%;
+  }
+
+  #footer i {
+    font-size: 2rem;
+  }
+
+  #pricing {
+    padding: 15%;
+  }
+
+  #testimonials {
+    padding: 16%;
+  }
+
+  #testimonials h2 {
+    font-size: 1.8rem;
+  }
+
+  #testimonials em {
+    font-size: 0.8rem;
+  }
 }
