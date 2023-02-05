@@ -1,0 +1,212 @@
+/* Fonts */
+
+@font-face {
+  font-family: Montserrat-Extra-Bold;
+  src: url(Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(Ubuntu/Ubuntu-medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bolder;
+  src: url(Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+/* Elements */
+
+p {
+  color: #8f8f8f;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+/* navigation bar */
+
+#mynav {
+  padding: 0 0 4.5rem;
+}
+
+#brand {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+/* Title Section*/
+
+#title {
+  background-color: #400e32;
+}
+
+#container-fluid {
+  padding: 3% 10% 8%;
+}
+
+#title h1 {
+  font-family: Montserrat-Extra-Bold;
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#title button {
+  margin: auto 1%;
+}
+
+/* image title */
+
+.img-title {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 20%;
+}
+
+/* Features Section*/
+
+.fa-solid {
+  color: #a61f69;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.f {
+  margin-bottom: 2rem;
+}
+
+.fa-solid:hover {
+  color: #400e32;
+}
+
+#features h3 {
+  font-family: Montserrat-Bold;
+}
+
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+}
+
+/* Testimonials */
+
+#testimonials {
+  font-family: Montserrat-Bold;
+  background-color: #a61f69;
+  color: white;
+}
+
+#testimonials h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+#press {
+  background-color: #a61f69;
+}
+
+.press-img {
+  width: 12%;
+  margin: 3%;
+  padding-bottom: 5%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing h2,
+#pricing h3 {
+  font-family: Montserrat-Bolder;
+}
+
+#pricing h2 {
+  font-size: 3rem;
+}
+
+#pricing {
+  padding: 8rem;
+}
+
+.pricing-col {
+  padding: 4% 3%;
+}
+
+@media (max-width: 1082px) {
+  .row {
+    text-align: center;
+  }
+
+  .img-title {
+    transform: rotate(0);
+    position: static;
+    margin-top: 10%;
+  }
+}
+
+/* cta section */
+
+#cta {
+  background-color: #a61f69;
+  padding: 10%;
+  color: white;
+}
+
+#cta button {
+  margin: 0 1%;
+}
+
+#cta h3 {
+  font-family: Montserrat-Bolder;
+  font-size: 3rem;
+  width: 70%;
+  margin: auto auto 5%;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: white;
+  padding: 7% 15%;
+}
+
+#footer i {
+  color: black;
+  font-size: large;
+  padding: 2%;
+}
+
+#footer i:hover {
+  color: #a61f69;
+}
