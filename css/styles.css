@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: Ubuntu;
-  src: url(Ubuntu/Ubuntu-medium.ttf);
+  src: url(Ubuntu-medium.ttf);
 }
 
 @font-face {
@@ -24,6 +24,10 @@
 
 p {
   color: #8f8f8f;
+}
+
+.left {
+  text-align: left;
 }
 
 /* navigation bar */
