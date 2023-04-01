@@ -1,0 +1,208 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu:wght@500&display=swap");
+/* Elements */
+
+:root {
+  --FONT: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.left {
+  text-align: left;
+}
+
+/* navigation bar */
+
+#mynav {
+  padding: 0 0 4.5rem;
+}
+
+#brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+/* Title Section*/
+
+#title {
+  background-color: #400e32;
+}
+
+#container-fluid {
+  padding: 3% 10% 8%;
+}
+
+#title h1 {
+  font-family: var(--FONT);
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#title button {
+  margin-left: 0;
+  margin-right: 2%;
+}
+
+/* image title */
+
+.img-title {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 20%;
+}
+
+/* Features Section*/
+
+.fa-solid {
+  color: #a61f69;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.f {
+  margin-bottom: 2rem;
+}
+
+.fa-solid:hover {
+  color: #400e32;
+}
+
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  text-align: center;
+}
+
+/* Testimonials */
+
+#testimonials {
+  font-family: Montserrat-Bold;
+  background-color: #a61f69;
+  color: white;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+#press {
+  background-color: #a61f69;
+  text-align: center;
+}
+
+.press-img {
+  width: 12%;
+  margin: 3%;
+  padding-bottom: 5%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing h2,
+#pricing h3 {
+  font-family: var(--FONT);
+}
+
+#pricing h2 {
+  font-size: 3rem;
+}
+
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+}
+
+.pricing-col {
+  padding: 4% 3%;
+}
+
+/* cta section */
+
+#cta {
+  background-color: #a61f69;
+  text-align: center;
+  padding: 10%;
+  color: white;
+}
+
+#cta button {
+  margin: 0 1%;
+}
+
+#cta h3 {
+  font-family: var(--FONT);
+  font-size: 3rem;
+  width: 70%;
+  margin: auto auto 5%;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#footer i {
+  color: black;
+  font-size: large;
+  padding: 2%;
+}
+
+#footer i:hover {
+  color: #a61f69;
+}
+
+/* Mobile Section */
+
+@media (max-width: 1082px) {
+  .row {
+    text-align: center;
+  }
+
+  #brand {
+    font-size: 1.5rem;
+  }
+
+  .img-title {
+    transform: rotate(0);
+    position: static;
+    margin-top: 25%;
+    margin-bottom: 6rem;
+  }
+}
